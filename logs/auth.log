@@ -1,0 +1,60 @@
+Apr 25 00:59:49 kali sshd[2625]: Server listening on 0.0.0.0 port 22.
+Apr 25 00:59:49 kali sshd[2625]: Server listening on :: port 22.
+Apr 25 01:06:52 kali sshd[2720]: Invalid user Kali from 192.168.30.141 port 49845
+Apr 25 01:07:02 kali sshd[2720]: pam_unix(sshd:auth): check pass; user unknown
+Apr 25 01:07:02 kali sshd[2720]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.30.141
+Apr 25 01:07:04 kali sshd[2720]: Failed password for invalid user Kali from 192.168.30.141 port 49845 ssh2
+Apr 25 01:07:14 kali sshd[2720]: pam_unix(sshd:auth): check pass; user unknown
+Apr 25 01:07:16 kali sshd[2720]: Failed password for invalid user Kali from 192.168.30.141 port 49845 ssh2
+Apr 25 01:07:21 kali sshd[2720]: pam_unix(sshd:auth): check pass; user unknown
+Apr 25 01:07:23 kali sshd[2720]: Failed password for invalid user Kali from 192.168.30.141 port 49845 ssh2
+Apr 25 01:07:24 kali sshd[2720]: Connection reset by invalid user Kali 192.168.30.141 port 49845 [preauth]
+Apr 25 01:07:24 kali sshd[2720]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.30.141
+Apr 25 01:07:53 kali sshd[2726]: Invalid user Kali from 192.168.30.141 port 49846
+Apr 25 01:07:59 kali sshd[2726]: pam_unix(sshd:auth): check pass; user unknown
+Apr 25 01:07:59 kali sshd[2726]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.30.141
+Apr 25 01:08:01 kali sshd[2726]: Failed password for invalid user Kali from 192.168.30.141 port 49846 ssh2
+Apr 25 01:09:51 kali sshd[2726]: pam_unix(sshd:auth): check pass; user unknown
+Apr 25 01:21:49 kali sshd[2865]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.30.141  user=root
+Apr 25 01:21:51 kali sshd[2865]: Failed password for root from 192.168.30.141 port 49848 ssh2
+Apr 25 01:26:55 kali sshd[2625]: Received signal 15; terminating.
+Apr 25 01:27:02 kali sshd[2895]: Server listening on 0.0.0.0 port 22.
+Apr 25 01:27:02 kali sshd[2895]: Server listening on :: port 22.
+Apr 25 01:27:31 kali sshd[2897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.30.141  user=root
+Apr 25 01:27:33 kali sshd[2897]: Failed password for root from 192.168.30.141 port 49849 ssh2
+Apr 25 01:30:07 kali sshd[2907]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.30.141  user=kali
+Apr 25 01:30:09 kali sshd[2907]: Failed password for kali from 192.168.30.141 port 49850 ssh2
+Apr 25 01:30:16 kali sshd[2907]: Accepted password for kali from 192.168.30.141 port 49850 ssh2
+Apr 25 01:30:16 kali sshd[2907]: pam_unix(sshd:session): session opened for user kali(uid=1000) by kali(uid=0)
+Apr 25 01:30:16 kali sshd[2907]: pam_systemd(sshd:session): New sd-bus connection (system-bus-pam-systemd-2907) opened.
+Apr 25 01:31:59 kali sshd[2939]: Received disconnect from 192.168.30.141 port 49850:11: disconnected by user
+Apr 25 01:31:59 kali sshd[2939]: Disconnected from user kali 192.168.30.141 port 49850
+Apr 25 01:31:59 kali sshd[2907]: pam_unix(sshd:session): session closed for user kali
+Apr 25 01:31:59 kali sshd[2907]: pam_systemd(sshd:session): New sd-bus connection (system-bus-pam-systemd-2907) opened.
+-- Boot 711314d744474e5d9cf900e281cc1ef0 --
+Dec 25 00:09:06 kali sshd[3314]: Server listening on 0.0.0.0 port 22.
+Dec 25 00:09:06 kali sshd[3314]: Server listening on :: port 22.
+Dec 25 00:10:41 kali sshd[3361]: Invalid user fakeuser from ::1 port 55818
+Dec 25 00:10:55 kali sshd[3361]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:10:55 kali sshd[3361]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Dec 25 00:10:57 kali sshd[3361]: Failed password for invalid user fakeuser from ::1 port 55818 ssh2
+Dec 25 00:13:02 kali sshd[3367]: Invalid user fakeuser from ::1 port 45674
+Dec 25 00:13:05 kali sshd[3367]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:13:05 kali sshd[3367]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Dec 25 00:13:07 kali sshd[3367]: Failed password for invalid user fakeuser from ::1 port 45674 ssh2
+Dec 25 00:13:11 kali sshd[3367]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:13:13 kali sshd[3367]: Failed password for invalid user fakeuser from ::1 port 45674 ssh2
+Dec 25 00:13:16 kali sshd[3367]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:13:18 kali sshd[3367]: Failed password for invalid user fakeuser from ::1 port 45674 ssh2
+Dec 25 00:13:19 kali sshd[3367]: Connection closed by invalid user fakeuser ::1 port 45674 [preauth]
+Dec 25 00:13:19 kali sshd[3367]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Dec 25 00:13:33 kali sshd[3375]: Invalid user fakeuser from ::1 port 58586
+Dec 25 00:13:35 kali sshd[3375]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:13:35 kali sshd[3375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Dec 25 00:13:37 kali sshd[3375]: Failed password for invalid user fakeuser from ::1 port 58586 ssh2
+Dec 25 00:13:40 kali sshd[3375]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:13:42 kali sshd[3375]: Failed password for invalid user fakeuser from ::1 port 58586 ssh2
+Dec 25 00:13:45 kali sshd[3375]: pam_unix(sshd:auth): check pass; user unknown
+Dec 25 00:13:47 kali sshd[3375]: Failed password for invalid user fakeuser from ::1 port 58586 ssh2
+Dec 25 00:13:49 kali sshd[3375]: Connection closed by invalid user fakeuser ::1 port 58586 [preauth]
+Dec 25 00:13:49 kali sshd[3375]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
