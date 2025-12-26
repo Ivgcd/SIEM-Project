@@ -10,7 +10,9 @@ def detect_failed_logins(logs):
     for line in logs:
         if "Failed password" in line:
             parts = line.split()
-            ip = parts[-1]
+
+            if "from" in parts:
+                ip = parts[parts.index("from") + 1]
 
             if ip in failed_logins:
                 failed_logins[ip] += 1
